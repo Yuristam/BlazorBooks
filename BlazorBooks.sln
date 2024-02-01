@@ -5,9 +5,9 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBooks.Web", "BlazorBooks.Web\BlazorBooks.Web.csproj", "{92F028B5-9ABE-4E2D-A4A3-645338B4DF61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBooks.Api", "BlazorBooks.Api\BlazorBooks.Api.csproj", "{1C8F53C4-D7B5-4965-BF25-9C5746F9C5D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBooks.Api", "BlazorBooks.Api\BlazorBooks.Api.csproj", "{1C8F53C4-D7B5-4965-BF25-9C5746F9C5D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorBooks.Models", "BlazorBooks.Models\BlazorBooks.Models.csproj", "{F7E9155E-4591-47EE-B1D2-10BCE4FC7AFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBooks.Models", "BlazorBooks.Models\BlazorBooks.Models.csproj", "{F7E9155E-4591-47EE-B1D2-10BCE4FC7AFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

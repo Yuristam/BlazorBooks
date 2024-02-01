@@ -1,4 +1,6 @@
 using BlazorBooks.Api.Data;
+using BlazorBooks.Api.Repositories;
+using BlazorBooks.Api.Repositories.Contracts;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +12,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContextPool<BlazorBooksDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BlazorBooksConnection"))
 );
+
+builder.Services.AddScoped<IBookRepository,BookRepository>();
 
 var app = builder.Build();
 

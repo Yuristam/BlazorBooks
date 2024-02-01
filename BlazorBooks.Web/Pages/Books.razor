@@ -18,7 +18,7 @@ else
 
         @for (int i = 0; i < bookCount; i++)
         {
-            bookRowList.Skip(i * itemsPerRow).Take(itemsPerRow).ToList();
+            bookRowList = Books.Skip(i * itemsPerRow).Take(itemsPerRow).ToList();
 
             <div class="row mt-3">
 
@@ -28,15 +28,15 @@ else
                         <a href="#">
                             <div class="card">
                                 <img class="img-thumbnail" src="@item.ImageURL" />
-                                
+
                                 <div class="card-body">
 
                                     <h5 class="card-title mb-3">
                                         @item.Title
                                     </h5>
-                                    
+
                                     <p class="card-text">
-                                        <b>@item.Price.ToString("$")</b>
+                                        <b>@item.Price.ToString("C")</b>
                                     </p>
 
                                 </div>

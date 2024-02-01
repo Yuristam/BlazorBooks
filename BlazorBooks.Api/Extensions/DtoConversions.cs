@@ -1,5 +1,4 @@
 ﻿using BlazorBooks.Api.Entities;
-using BlazorBooks.Api.Enums;
 using BlazorBooks.Models.Dtos;
 
 namespace BlazorBooks.Api.Extensions

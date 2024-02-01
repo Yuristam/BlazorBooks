@@ -1,9 +1,10 @@
 ﻿using BlazorBooks.Models.Dtos;
+using BlazorBooks.Web.Services.Contracts;
 using System.Net.Http.Json;
 
 namespace BlazorBooks.Web.Services
 {
-    public class BookService
+    public class BookService : IBookService
     {
         private readonly HttpClient _httpClient;
 

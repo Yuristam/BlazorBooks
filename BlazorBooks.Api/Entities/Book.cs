@@ -7,6 +7,7 @@ namespace BlazorBooks.Api.Entities
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
+        public string AuthorName { get; set; }
         public string ImageURL { get; set; }
         public DateTime DatePublished { get; set; }
         public Language Language { get; set; }
@@ -15,7 +16,5 @@ namespace BlazorBooks.Api.Entities
         
         public Genre Genre { get; set; }
         public int GenreId { get; set; }
-        public Author Author { get; set; }
-        public int AuthorId { get; set; }
     }
 }
